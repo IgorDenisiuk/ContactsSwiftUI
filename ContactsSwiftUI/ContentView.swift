@@ -21,7 +21,7 @@ struct ContentView: View {
             SectionsContacts(contacts: contacts)
                     .tabItem {
                         Image(systemName: SystemImage.phone.rawValue)
-                        Text("Contacts")
+                        Text("Numbers")
             }
         }
     }
