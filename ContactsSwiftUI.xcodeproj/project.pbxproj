@@ -13,6 +13,12 @@
 		05FB77AA261F17900018C0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB77A9261F17900018C0E3 /* Assets.xcassets */; };
 		05FB77AD261F17900018C0E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB77AC261F17900018C0E3 /* Preview Assets.xcassets */; };
 		05FB77B0261F17900018C0E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB77AE261F17900018C0E3 /* LaunchScreen.storyboard */; };
+		05FB77BA261F1A900018C0E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77B9261F1A900018C0E3 /* Person.swift */; };
+		05FB77BD261F1AE90018C0E3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77BC261F1AE90018C0E3 /* DataManager.swift */; };
+		05FB77C9261F5C0F0018C0E3 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77C8261F5C0F0018C0E3 /* ContactList.swift */; };
+		05FB77CC261F5D7D0018C0E3 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77CB261F5D7D0018C0E3 /* ContactDetails.swift */; };
+		05FB77D0261F5ECA0018C0E3 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77CF261F5ECA0018C0E3 /* RowView.swift */; };
+		05FB77D3261F64D20018C0E3 /* SectionsContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB77D2261F64D10018C0E3 /* SectionsContacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		05FB77AC261F17900018C0E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05FB77AF261F17900018C0E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05FB77B1261F17900018C0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FB77B9261F1A900018C0E3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		05FB77BC261F1AE90018C0E3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		05FB77C8261F5C0F0018C0E3 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		05FB77CB261F5D7D0018C0E3 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		05FB77CF261F5ECA0018C0E3 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		05FB77D2261F64D10018C0E3 /* SectionsContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsContacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				05FB77A3261F178F0018C0E3 /* AppDelegate.swift */,
 				05FB77A5261F178F0018C0E3 /* SceneDelegate.swift */,
 				05FB77A7261F178F0018C0E3 /* ContentView.swift */,
+				05FB77C8261F5C0F0018C0E3 /* ContactList.swift */,
+				05FB77CB261F5D7D0018C0E3 /* ContactDetails.swift */,
+				05FB77D2261F64D10018C0E3 /* SectionsContacts.swift */,
+				05FB77CF261F5ECA0018C0E3 /* RowView.swift */,
+				05FB77B9261F1A900018C0E3 /* Person.swift */,
+				05FB77BC261F1AE90018C0E3 /* DataManager.swift */,
 				05FB77A9261F17900018C0E3 /* Assets.xcassets */,
 				05FB77AE261F17900018C0E3 /* LaunchScreen.storyboard */,
 				05FB77B1261F17900018C0E3 /* Info.plist */,
@@ -145,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FB77CC261F5D7D0018C0E3 /* ContactDetails.swift in Sources */,
+				05FB77C9261F5C0F0018C0E3 /* ContactList.swift in Sources */,
 				05FB77A4261F178F0018C0E3 /* AppDelegate.swift in Sources */,
+				05FB77D3261F64D20018C0E3 /* SectionsContacts.swift in Sources */,
+				05FB77D0261F5ECA0018C0E3 /* RowView.swift in Sources */,
+				05FB77BD261F1AE90018C0E3 /* DataManager.swift in Sources */,
 				05FB77A6261F178F0018C0E3 /* SceneDelegate.swift in Sources */,
+				05FB77BA261F1A900018C0E3 /* Person.swift in Sources */,
 				05FB77A8261F178F0018C0E3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
